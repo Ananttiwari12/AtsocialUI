@@ -265,6 +265,9 @@ const Form = () => {
               }}
             >
               {isLogin ? "Sign up" : "Log in"}
+              {isLogin
+                ? "Dummy email: qqqqq@qqqqq.com || Dummy password: qqqqq"
+                : ""}
             </Typography>
           </Box>
         </form>
