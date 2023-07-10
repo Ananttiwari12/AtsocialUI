@@ -81,25 +81,8 @@ const Leftcontainer = ({ userId, picturePath }) => {
           <LocationOnOutlined fontSize="large" sx={{ color: main }} />
           <Typography color={medium}>{location}</Typography>
         </Box>
-        {/* <Box display="flex" alignItems="center" gap="1rem">
-                    <WorkOutlineOutlined fontSize="large" sx={{color: main}} />
-                    <Typography color={medium}>{occupation}</Typography>
-                </Box> */}
       </Box>
       <Divider />
-      {/* ************************************************************** */}
-
-      {/* <Box p="1rem">
-                <Flexcomponents mb="0.5rem">
-                    <Typography color={medium} >Who viewed your profile</Typography>
-                    <Typography color={main} fontWeight="500" >{viewedProfile}</Typography>
-                </Flexcomponents>
-                <Flexcomponents mb="0.5rem">
-                    <Typography color={medium} >Impressions of your post</Typography>
-                    <Typography color={main} fontWeight="500" >{impressions}</Typography>
-                </Flexcomponents>
-            </Box>
-            <Divider /> */}
       {/* ************************************************************** */}
 
       <Box p="1rem 0">
@@ -114,7 +97,6 @@ const Leftcontainer = ({ userId, picturePath }) => {
               <Typography color={main} fontWeight="500">
                 Twitter
               </Typography>
-              {/* <Typography color={medium}>Social Network</Typography> */}
             </Box>
           </Flexcomponents>
           <EditOutlined sx={{ color: main }} />
@@ -127,7 +109,6 @@ const Leftcontainer = ({ userId, picturePath }) => {
               <Typography color={main} fontWeight="500">
                 linkedin
               </Typography>
-              {/* <Typography color={medium}>Network platform</Typography> */}
             </Box>
           </Flexcomponents>
           <EditOutlined sx={{ color: main }} />
