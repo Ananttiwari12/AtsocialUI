@@ -233,6 +233,7 @@ const Form = () => {
               helperText={touched.password && errors.password}
               sx={{ gridColumn: "span 4" }}
             />
+            <p>"Dummy email: qqqqq@qqqqq.com || Dummy password: qqqqq"</p>
           </Box>
 
           {/* BUTTONS */}
@@ -265,9 +266,6 @@ const Form = () => {
               }}
             >
               {isLogin ? "Sign up" : "Log in"}
-              {isLogin
-                ? "Dummy email: qqqqq@qqqqq.com || Dummy password: qqqqq"
-                : ""}
             </Typography>
           </Box>
         </form>
